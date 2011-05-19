@@ -14,12 +14,29 @@ A Controller allowing you to choose the style of the items based on the standard
 You can customize items specifying gradient or reflexive color.
 
 
-See Classes/VDFrameworkAppDelegate.m to understand how to use VDTabBarController
+See Classes/VDFrameworkAppDelegate.m to understand how to use VDTabBarController : 
+
+	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    		// Override point for customization after application launch.
+
+    		// Add the tab bar controller's view to the window and display.
+    		[self.window addSubview:tabBarController.view];
+    		[self.window makeKeyAndVisible];
+
+		// ******************************************************************************
+		//You can choose style from HERE
+		//[tabBarController gradientColorFrom:[UIColor blueColor] to:[UIColor redColor]];
+		//[tabBarController reflexiveColor:[UIColor greenColor]];
+		// ******************************************************************************
+
+   		return YES;
+	}
 
 ### Limitations
 
 * Does not work with SystemTabBarItem
-* Images in item have to be 30x30 png  
+* Images in items have to be 30x30  
 
 
 ## Sample
