@@ -41,10 +41,10 @@
 		2ED78A9C1385572000193585 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		2ED78A9D1385572000193585 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		2ED78A9E1385572000193585 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
-		2ED78AA21385573000193585 /* VDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDTabBarController.h; sourceTree = "<group>"; };
-		2ED78AA31385573000193585 /* VDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDTabBarController.m; sourceTree = "<group>"; };
-		2ED78AA61385574900193585 /* VDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDButton.h; sourceTree = "<group>"; };
-		2ED78AA71385574900193585 /* VDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDButton.m; sourceTree = "<group>"; };
+		2ED78AA21385573000193585 /* VDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDTabBarController.h; path = Classes/VDTabBarController.h; sourceTree = "<group>"; };
+		2ED78AA31385573000193585 /* VDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDTabBarController.m; path = Classes/VDTabBarController.m; sourceTree = "<group>"; };
+		2ED78AA61385574900193585 /* VDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDButton.h; path = Classes/VDButton.h; sourceTree = "<group>"; };
+		2ED78AA71385574900193585 /* VDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDButton.m; path = Classes/VDButton.m; sourceTree = "<group>"; };
 		2ED78AA91385577300193585 /* ThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* VDFramework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VDFramework-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +66,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2ED78A91138556DE00193585 /* Framework */,
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* VDFrameworkAppDelegate.h */,
@@ -85,7 +86,6 @@
 		29B97314FDCFA39411CA2CEA /* VDFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2ED78A91138556DE00193585 /* Framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -133,6 +133,7 @@
 				2ED78A99138556F200193585 /* TabBar */,
 			);
 			name = Framework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		2ED78A99138556F200193585 /* TabBar */ = {

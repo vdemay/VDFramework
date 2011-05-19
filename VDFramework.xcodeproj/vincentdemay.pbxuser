@@ -121,6 +121,14 @@
 			2ED78B1B138560B800193585 /* PBXTextBookmark */ = 2ED78B1B138560B800193585 /* PBXTextBookmark */;
 			2ED78B1C138560B800193585 /* PBXBookmark */ = 2ED78B1C138560B800193585 /* PBXBookmark */;
 			2ED78B1D138560B800193585 /* PBXTextBookmark */ = 2ED78B1D138560B800193585 /* PBXTextBookmark */;
+			2ED78B1F138566D500193585 /* PBXTextBookmark */ = 2ED78B1F138566D500193585 /* PBXTextBookmark */;
+			2ED78B20138567DF00193585 /* PBXTextBookmark */ = 2ED78B20138567DF00193585 /* PBXTextBookmark */;
+			2ED78B21138567DF00193585 /* PBXTextBookmark */ = 2ED78B21138567DF00193585 /* PBXTextBookmark */;
+			2ED78B22138567E500193585 /* PBXTextBookmark */ = 2ED78B22138567E500193585 /* PBXTextBookmark */;
+			2ED78B23138567E500193585 /* PBXTextBookmark */ = 2ED78B23138567E500193585 /* PBXTextBookmark */;
+			2ED78B2E1385689B00193585 /* PBXTextBookmark */ = 2ED78B2E1385689B00193585 /* PBXTextBookmark */;
+			2ED78B2F1385689B00193585 /* PBXBookmark */ = 2ED78B2F1385689B00193585 /* PBXBookmark */;
+			2ED78B301385689B00193585 /* PlistBookmark */ = 2ED78B301385689B00193585 /* PlistBookmark */;
 		};
 		sourceControlManager = 2ED78A92138556DE00193585 /* Source Control */;
 		userBuildSettings = {
@@ -162,6 +170,7 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		startupPath = "<<ProjectDirectory>>";
 		variableFormatDictionary = {
 		};
 	};
@@ -188,23 +197,23 @@
 	};
 	2ED78AA31385573000193585 /* VDTabBarController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 2236}}";
-			sepNavSelRange = "{600, 0}";
-			sepNavVisRange = "{0, 880}";
+			sepNavIntBoundsRect = "{{0, 0}, {677, 2327}}";
+			sepNavSelRange = "{1968, 0}";
+			sepNavVisRange = "{1380, 272}";
 		};
 	};
 	2ED78AA61385574900193585 /* VDButton.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 546}}";
-			sepNavSelRange = "{0, 600}";
-			sepNavVisRange = "{0, 856}";
+			sepNavIntBoundsRect = "{{0, 0}, {633, 494}}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{0, 563}";
 		};
 	};
 	2ED78AA71385574900193585 /* VDButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {889, 2301}}";
-			sepNavSelRange = "{600, 0}";
-			sepNavVisRange = "{0, 1034}";
+			sepNavIntBoundsRect = "{{0, 0}, {740, 2457}}";
+			sepNavSelRange = "{1749, 0}";
+			sepNavVisRange = "{1263, 355}";
 		};
 	};
 	2ED78AC513855E7800193585 /* PBXTextBookmark */ = {
@@ -600,5 +609,85 @@
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 0;
+	};
+	2ED78B1F138566D500193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	2ED78B20138567DF00193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	2ED78B21138567DF00193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2ED78AA61385574900193585 /* VDButton.h */;
+		name = "VDButton.h: 1";
+		rLen = 600;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	2ED78B22138567E500193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	2ED78B23138567E500193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	2ED78B2E1385689B00193585 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	2ED78B2F1385689B00193585 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* VDFramework-Info.plist */;
+	};
+	2ED78B301385689B00193585 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* VDFramework-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8D1107310486CEB800E47090 /* VDFramework-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{0, 4}, {1440, 874}}";
+		};
 	};
 }
