@@ -282,7 +282,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>6</integer>
+									<integer>4</integer>
 									<integer>3</integer>
 									<integer>2</integer>
 									<integer>1</integer>
@@ -325,7 +326,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>VDFramework-Info.plist</string>
+								<string>VDButton.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +334,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>VDFramework-Info.plist</string>
+										<string>VDButton.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2ED78B301385689B00193585</string>
+										<string>2ED78B3613857AC800193585</string>
 										<key>history</key>
 										<array>
 											<string>2ED78B17138560B800193585</string>
@@ -346,7 +347,8 @@
 											<string>2ED78B1A138560B800193585</string>
 											<string>2ED78B1B138560B800193585</string>
 											<string>2ED78B2E1385689B00193585</string>
-											<string>2ED78B2F1385689B00193585</string>
+											<string>2ED78B3413857AC800193585</string>
+											<string>2ED78B3513857AC800193585</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -544,13 +546,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2ED78B311385689B00193585</string>
 		<string>2ED78AD413855E7800193585</string>
 		<string>2ED78AD513855E7800193585</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>2ED78A97138556E700193585</string>
 		<string>/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework.xcodeproj</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 	</array>
 	<key>WindowString</key>
 	<string>26 232 1158 646 0 0 1440 878 </string>
@@ -767,7 +768,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
