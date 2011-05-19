@@ -1,0 +1,436 @@
+TVDFramework
+v7
+r0
+t327505961.263137
+cCheck dependencies
+cProcessInfoPlistFile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/Info.plist VDFramework-Info.plist
+cCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib
+cCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib
+cCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib
+cCpResource build/Debug-iphonesimulator/VDFramework.app/search.png search.png
+cCpResource build/Debug-iphonesimulator/VDFramework.app/favorite.png favorite.png
+cCpResource build/Debug-iphonesimulator/VDFramework.app/profile.png profile.png
+cCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib
+cProcessPCH /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch.gch VDFramework_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/main.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFrameworkAppDelegate.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/FirstViewController.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBarController.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDButton.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework normal i386
+cGenerateDSYMFile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app.dSYM /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework
+cTouch /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.h
+c000000004DD51F5500000000000000E5
+t1305812821
+s229
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m
+c000000004DD51F5500000000000005AE
+t1305812821
+s1454
+i"FirstViewController.h"
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.h
+c000000004DD51F5500000000000001DC
+t1305812821
+s476
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m
+c000000004DD51F550000000000000C46
+t1305812821
+s3142
+i"VDFrameworkAppDelegate.h"
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib
+c000000004DD51F5500000000000049D5
+t1305812821
+s18901
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib
+c000000004DD520960000000000007123
+t1305813142
+s28963
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib
+c000000004DD51F5500000000000049D3
+t1305812821
+s18899
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib
+c000000004D42AD020000000000004271
+t1296215298
+s17009
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.h
+c000000004DCE93040000000000000112
+t1305383684
+s274
+i<Foundation/Foundation.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m
+c000000004DD4E79D0000000000001238
+t1305798557
+s4664
+i"VDButton.h"
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework_Prefix.pch
+c000000004DD51F5500000000000000BF
+t1305812821
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBar.h
+c000000004DD5202F0000000000000147
+t1305813039
+s327
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBar.m
+c000000004DD520380000000000000C53
+t1305813048
+s3155
+i"VDTabBarController.h"
+i"VDButton.h"
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.h
+c000000004DD5202F0000000000000147
+t1305813039
+s327
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m
+c000000004DD520380000000000000C53
+t1305813048
+s3155
+i"VDTabBarController.h"
+i"VDButton.h"
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app
+t1305813161
+s408
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app.dSYM
+t1305813161
+s102
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/FirstView.nib
+t1305813158
+s1743
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/Info.plist
+t1305813156
+s607
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/MainWindow.nib
+t1305813157
+s2017
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/PkgInfo
+t1305813156
+s8
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/SecondView.nib
+t1305813158
+s1742
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/ThirdView.nib
+t1305813158
+s1240
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework
+t1305813161
+s31312
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/favorite.png
+t1305813158
+s3171
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/profile.png
+t1305813158
+s3152
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/search.png
+t1305813158
+s3351
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/FirstViewController.o
+t1305813160
+s37500
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDButton.o
+t1305813160
+s46496
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFramework.LinkFileList
+c000000004DD520A40000000000000326
+t1305813156
+s806
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFrameworkAppDelegate.o
+t1305813160
+s54600
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBar.o
+t2
+s0
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBarController.o
+t1305813160
+s55072
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/main.o
+t1305813160
+s6344
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/favorite.png
+c000000004DD413B70000000000000C63
+t1305744311
+s3171
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m
+c000000004DD51F550000000000000160
+t1305812821
+s352
+i<UIKit/UIKit.h>
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/profile.png
+c000000004DD413A70000000000000C50
+t1305744295
+s3152
+
+N/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/search.png
+c000000004DD4E6890000000000000D17
+t1305798281
+s3351
+
+N/var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch.gch
+t1305813160
+s15453392
+
+NVDFramework-Info.plist
+c000000004DD51F55000000000000038D
+t1305812821
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327505956#327505956#0(0"0(0#1#0"8639438240#0"0#
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/FirstViewController.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505960.549265
+e327505960.705686
+r1
+xCompileC
+xbuild/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/FirstViewController.o
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m327505960#327505960#0(0"0(0#0#89"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m8639705056#2263"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -include /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/FirstViewController.m -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDButton.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505960.705776
+e327505960.800928
+r1
+xCompileC
+xbuild/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDButton.o
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m327505960#327505960#0(0"0(0#0#70"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m8632511168#2233"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -include /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDButton.m -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDButton.o0#
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFrameworkAppDelegate.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505960.421355
+e327505960.614516
+r1
+xCompileC
+xbuild/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFrameworkAppDelegate.o
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m327505960#327505960#0(0"0(0#0#92"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m8643099360#2269"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -include /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/Classes/VDFrameworkAppDelegate.m -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFrameworkAppDelegate.o0#
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBar.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBarController.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505960.614609
+e327505960.858064
+r1
+xCompileC
+xbuild/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBarController.o
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m: In function '-[VDTabBarController willRotateToInterfaceOrientation:duration:]':
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:31: warning: unused variable 'current'
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m: In function '-[VDTabBarController didRotateFromInterfaceOrientation:]':
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: 'VDTabBarController' may not respond to '-computePosition'
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: (Messages without a matching method signature
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: will be assumed to return 'id' and accept
+o/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: '...' as arguments.)
+lSLF07#2@88"Compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m327505960#327505960#0(980"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m: In function '-[VDTabBarController willRotateToInterfaceOrientation:duration:]':/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:31: warning: unused variable 'current'/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m: In function '-[VDTabBarController didRotateFromInterfaceOrientation:]':/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: 'VDTabBarController' may not respond to '-computePosition'/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: (Messages without a matching method signature/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: will be assumed to return 'id' and accept/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m:37: warning: '...' as arguments.)3(22@25"Unused variable 'current'327505960#162#120#0(6@80"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m327505848#31#0#31#0#19"unused variable '*'0(22@58"'VDTabBarController' may not respond to '-computePosition'327505960#436#153#0(6@80"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m327505848#37#0#37#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)327505960#589#140#0(6@80"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m327505848#37#0#37#0#0"0(0#0#80"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m8650822592#2253"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -include /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDTabBarController.m -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDTabBarController.o0#
+
+CCompileC build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/main.o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505960.420077
+e327505960.549151
+r1
+xCompileC
+xbuild/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/main.o
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m327505960#327505960#0(0"0(0#0#66"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m8645775936#2225"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -include /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/main.m -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib
+s327505957.474442
+e327505958.186228
+r1
+xCompileXIB
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib327505957#327505958#0(0"0(0#0#73"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib8655259552#635"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/FirstView.nib /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib
+s327505956.867241
+e327505957.474341
+r1
+xCompileXIB
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327505956#327505957#0(0"0(0#0#74"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib8641747776#637"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/MainWindow.nib /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib
+s327505956.938757
+e327505958.168709
+r1
+xCompileXIB
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib327505956#327505958#0(0"0(0#0#74"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib8639967520#637"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/SecondView.nib /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib
+s327505958.172706
+e327505958.553045
+r1
+xCompileXIB
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib
+lSLF07#2@24"CompileXIB ThirdView.xib327505958#327505958#0(0"0(0#0#73"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib8639437920#635"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/ThirdView.nib /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/ThirdView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/VDFramework.app/favorite.png favorite.png
+s327505958.169751
+e327505958.206860
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VDFramework.app/favorite.png
+xfavorite.png
+lSLF07#2@17"Copy favorite.png327505958#327505958#0(0"0(0#0#72"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/favorite.png8655212576#537"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/favorite.png /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app0#
+
+CCpResource build/Debug-iphonesimulator/VDFramework.app/profile.png profile.png
+s327505958.171230
+e327505958.207534
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VDFramework.app/profile.png
+xprofile.png
+lSLF07#2@16"Copy profile.png327505958#327505958#0(0"0(0#0#71"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/profile.png8647190112#536"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/profile.png /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app0#
+
+CCpResource build/Debug-iphonesimulator/VDFramework.app/search.png search.png
+s327505958.168789
+e327505958.207434
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VDFramework.app/search.png
+xsearch.png
+lSLF07#2@15"Copy search.png327505958#327505958#0(0"0(0#0#70"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/search.png8656425568#535"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/search.png /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app0#
+
+CGenerateDSYMFile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app.dSYM /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework
+s327505961.188339
+e327505961.241897
+r1
+xGenerateDSYMFile
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app.dSYM
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/VDFramework.app.dSYM build/Debug-iphonesimulator/VDFramework.app/VDFramework327505961#327505961#0(0"0(0#0#115"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework8648745824#458"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app.dSYM0#
+
+CLd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework normal i386
+s327505960.858155
+e327505961.188252
+r1
+xLd
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework
+xnormal
+xi386
+lSLF07#2@120"Link /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework327505960#327505961#0(0"0(0#0#0"8632648064#1025"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -filelist /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/Objects-normal/i386/VDFramework.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/VDFramework0#
+
+CProcessInfoPlistFile /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/Info.plist VDFramework-Info.plist
+s327505956.861112
+e327505956.867175
+r1
+xProcessInfoPlistFile
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/Info.plist
+xVDFramework-Info.plist
+lSLF07#2@30"Process VDFramework-Info.plist327505956#327505956#0(0"0(0#0#82"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework-Info.plist8646662688#554"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VDFramework-Info.plist -genpkginfo /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app/Info.plist0#
+
+CProcessPCH /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch.gch VDFramework_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327505958.553190
+e327505960.419936
+r1
+xProcessPCH
+x/var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch.gch
+xVDFramework_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile VDFramework_Prefix.pch327505958#327505960#0(0"0(0#0#82"/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework_Prefix.pch8648945568#2092"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-generated-files.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-own-target-headers.hmap -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-all-target-headers.hmap -iquote /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/VDFramework-project-headers.hmap -F/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/include -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources/i386 -I/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/VDFramework.build/Debug-iphonesimulator/VDFramework.build/DerivedSources -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/VDFramework_Prefix.pch -o /var/folders/cr/cr92+O6HEdqpyDYUJctW6E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VDFramework_Prefix-biujfviuqcvocpdaixqezlbhsgnc/VDFramework_Prefix.pch.gch0#
+
+CTouch /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app
+s327505961.241974
+e327505961.263089
+r1
+xTouch
+x/Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app
+lSLF07#2@109"Touch /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app327505961#327505961#0(0"0(0#0#0"8646945664#324"    cd /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vincentdemay/dev/demay-fr.net/dev/iphone/VDFramework/build/Debug-iphonesimulator/VDFramework.app0#
+
