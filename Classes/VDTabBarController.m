@@ -60,29 +60,18 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark configuration
 - (void) reflexiveColor:(UIColor*) color {
-	_from = [color retain];
-	_style = VDTabBarReflexiveStyle;
-	
-	for (int i=0; i<_overbuttons.count; i++) {
-		VDButton *current = (VDButton*)[_overbuttons objectAtIndex:i];
-		current.from = _from;
-		current.to = _to;
-		current.style = _style;
-	}
+    _from = [color retain];
+    _style = VDTabBarReflexiveStyle;
+
+    [self addCustomElements];
 }
 
 - (void) gradientColorFrom:(UIColor*)from to:(UIColor*) to {
-	_from = [from retain];
-	_to = [to retain];
-	_style = VDTabBarGradientStyle;
-	
-	for (int i=0; i<_overbuttons.count; i++) {
-		VDButton *current = (VDButton*)[_overbuttons objectAtIndex:i];
-		current.from = _from;
-		current.to = _to;
-		current.style = _style;
-	}
-	
+    _from = [from retain];
+    _to = [to retain];
+    _style = VDTabBarGradientStyle;
+
+    [self addCustomElements];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -103,31 +92,35 @@
 
 -(void)addCustomElements
 {
-	CGFloat topOfTabBar = self.tabBar.frame.origin.y;
-	
-	CGFloat itemSize = self.tabBar.frame.size.width / self.tabBar.items.count;
-	
-	for (int i=0; i<self.tabBar.items.count; i++) {
-		// Initialise our two images
-		UIImage *btnImage = ((UITabBarItem*)[self.tabBar.items objectAtIndex:i]).image;
-		((UITabBarItem*)[self.tabBar.items objectAtIndex:i]).image = nil;
-		
-		VDButton* current = [VDButton buttonWithType:UIButtonTypeCustom]; //Setup the button
-		current.from = _from;
-		current.to = _to;
-		current.style = _style;
-		current.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
-		current.image = btnImage;
-		current.frame = CGRectMake(itemSize*i + itemSize/2 - 15, topOfTabBar+5, 30, 30);
-		[current setTag:i]; 
-		if ((self.tabBar.selectedItem == nil && i==0) || [self.tabBar.items objectAtIndex:i] == self.tabBar.selectedItem) {
-			[current setSelected:YES];
-		}
-		
-		[self.view addSubview:current];
-		[current addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
-		[_overbuttons addObject:current];
-	}
+    CGFloat topOfTabBar = self.tabBar.frame.origin.y;
+
+    CGFloat itemSize = self.tabBar.frame.size.width / self.tabBar.items.count;
+
+    for (UIView* button in _overbuttons)
+        [button removeFromSuperview];
+    [_overbuttons removeAllObjects];
+
+    for (int i=0; i<self.tabBar.items.count; i++) {
+        // Initialise our two images
+        UIImage *btnImage = ((UITabBarItem*)[self.tabBar.items objectAtIndex:i]).image;
+        ((UITabBarItem*)[self.tabBar.items objectAtIndex:i]).image = nil;
+
+        VDButton* current = [VDButton buttonWithType:UIButtonTypeCustom]; //Setup the button
+        current.from = _from;
+        current.to = _to;
+        current.style = _style;
+        current.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+        current.image = btnImage;
+        current.frame = CGRectMake(itemSize*i + itemSize/2 - 15, topOfTabBar+5, 32, 32);
+        [current setTag:i];
+        if ((self.tabBar.selectedItem == nil && i==0) || [self.tabBar.items objectAtIndex:i] == self.tabBar.selectedItem) {
+            [current setSelected:YES];
+        }
+
+        [self.view addSubview:current];
+        [current addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        [_overbuttons addObject:current];
+    }
 }
 
 - (void)buttonClicked:(id)sender
@@ -162,5 +155,10 @@
 	}
 }
 
+- (void)setViewControllers:(NSArray*)vcs
+{
+    [super setViewControllers:vcs];
+    [self addCustomElements];
+}
 
 @end
