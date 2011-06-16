@@ -161,4 +161,14 @@
     [self addCustomElements];
 }
 
+- (void)setSelectedIndex:(NSUInteger)idx
+{
+    [super setSelectedIndex:idx];
+
+    for (int i=0; i<self.tabBar.items.count; i++) {
+        UIButton* current = (UIButton*)[_overbuttons objectAtIndex:i];
+        [current setSelected:(idx==i)];
+    }
+}
+
 @end
